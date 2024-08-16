@@ -23,10 +23,6 @@
 
 <img src = "https://i.imgur.com/ulLoEig.png"> 
 
-## Installation
-
-See [INSTALL.md](INSTALL.md) for the installation of dependencies required to run Restormer.
-
 ## Demo
 
 To test the pre-trained Restormer models of [Deraining](https://drive.google.com/drive/folders/1ZEDDEVW0UgkpWi-N4Lj_JUoVChGXCu_u) on your own images, you can either use Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lOzh9Rpz4cdLput6Y00sU4tNuZJTtjBY#scrollTo=SRd46QaXlklQ), or command line as following
@@ -61,15 +57,24 @@ Training and Testing instructions for Deraining are provided in their respective
   </tr>
 </table>
 
+
+
+
+
 ## Results
 Experiments are performed for different image processing tasks including, image deraining, single-image motion deblurring, defocus deblurring (both on single image and dual pixel data), and image denoising (both on Gaussian and real data). 
-
 <details>
 <summary><strong>Image Deraining</strong> (click to expand) </summary>
+  
+### Results on Rain100L Dataset
+<img src = "https://i.imgur.com/yRTvF21.png"> 
 
+### Results on Rain100H Dataset
+<img src = "https://i.imgur.com/j2SJN7x.png"> 
+
+### Comaparisons with Different Models
 <img src = "https://i.imgur.com/mMoqYJi.png"> 
 </details>
-
 
 **Acknowledgment:** This code is based on the [BasicSR](https://github.com/xinntao/BasicSR) toolbox and [HINet](https://github.com/megvii-model/HINet). 
 
