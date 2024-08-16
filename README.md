@@ -62,7 +62,6 @@ Training and Testing instructions for Deraining are provided in their respective
 
 
 ## Results
-Experiments are performed for different image processing tasks including, image deraining, single-image motion deblurring, defocus deblurring (both on single image and dual pixel data), and image denoising (both on Gaussian and real data). 
 <details>
 <summary><strong>Image Deraining</strong> (click to expand) </summary>
   
