@@ -38,6 +38,21 @@ Example usage to perform Deraining on an image directly:
 python demo.py --task Deraining --input_dir './demo/degraded/portrait.jpg' --result_dir './demo/restored/'
 ```
 
+
+## Results
+<details>
+<summary><strong>Image Deraining</strong> (click to expand) </summary>
+  
+### Results on Rain100L Dataset
+<img src = "https://i.imgur.com/yRTvF21.png"> 
+
+### Results on Rain100H Dataset
+<img src = "https://i.imgur.com/j2SJN7x.png"> 
+
+### Comaparisons with Different Models
+<img src = "https://i.imgur.com/mMoqYJi.png"> 
+</details>
+
 ## Training and Evaluation
 
 Training and Testing instructions for Deraining are provided in their respective directories. Here is a summary table containing hyperlinks for easy navigation:
@@ -56,24 +71,6 @@ Training and Testing instructions for Deraining are provided in their respective
     <td align="center"><a href="https://drive.google.com/drive/folders/1O1FJ-eAOgfuzB2rQvx9J4OJ2dsulnDur?usp=sharing">Download</a></td>
   </tr>
 </table>
-
-
-
-
-
-## Results
-<details>
-<summary><strong>Image Deraining</strong> (click to expand) </summary>
-  
-### Results on Rain100L Dataset
-<img src = "https://i.imgur.com/yRTvF21.png"> 
-
-### Results on Rain100H Dataset
-<img src = "https://i.imgur.com/j2SJN7x.png"> 
-
-### Comaparisons with Different Models
-<img src = "https://i.imgur.com/mMoqYJi.png"> 
-</details>
 
 **Acknowledgment:** This code is based on the [BasicSR](https://github.com/xinntao/BasicSR) toolbox and [HINet](https://github.com/megvii-model/HINet). 
 
